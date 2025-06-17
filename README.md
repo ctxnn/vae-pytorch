@@ -42,7 +42,7 @@ this makes $z$ a deterministic function of $\mu$, $\sigma$, and a noise variable
 
 3. **total loss** (Evidence Lower Bound, ELBO):
 
-  $$L(x) = -\mathbb{E}_{q_\phi(z \mid x)} [ \log p_\theta(x \mid z) ] + D_{\text{KL}} \left[ q_\phi(z \mid x) \parallel p(z) \right]$$
+  $$L(x) = -E_{q_\phi(z \mid x)} [ \log p_\theta(x \mid z) ] + D_{\text{KL}} \left[ q_\phi(z \mid x) \parallel p(z) \right]$$
 
 **after training**:
 after training:
