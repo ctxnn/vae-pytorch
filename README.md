@@ -50,7 +50,11 @@ after training:
 - generate new data: $x' = \text{Decoder}(z)$
 
 **difference between AE and VAE**: 
+- difference in latent spaces
+![img](img/latentspace1)
+![img](img/latent space 2)
 
+- difference
 ![img](img/difference.png)
 
 
