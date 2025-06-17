@@ -64,3 +64,15 @@ after training:
 **difference between AE and VAE**: 
 
 ![img](img/difference.png)
+
+
+### AFTER TRAINING 
+
+**look after training the latent space coverted itself into a normal distribution** 
+
+![no](img/after_training.png)
+
+**reconstruction images**
+
+![recon](img/reconstruction.png)
+
