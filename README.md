@@ -51,8 +51,8 @@ after training:
 
 **difference between AE and VAE**: 
 - difference in latent spaces
-![img](img/latentspace1)
-![img](img/latent space 2)
+![image1](img/latentspace1)
+![image2](img/latentspace2)
 
 - difference
 ![img](img/difference.png)
