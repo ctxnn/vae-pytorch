@@ -1,5 +1,7 @@
 VAE is the generative modelling architecture that overcome the limitations of the vanilla autoencoders
 ![img](img/vae-gaussian.png)
+![img](img/arch.png)
+[img from these slides](https://deeplearning.cs.cmu.edu/F21/document/recitation/Recitation11/AE_and_VAE.pdf)
 > instead of encoding input data to a single latent vector, VAEs encode each input into a distribution—typically a Gaussian, the latent space is assumed to follow a normal distribution, which allows us to sample from it and generate new, meaningful data via the decoder.
 
 the encoder learns to approximate the mean and variance of this Gaussian distribution. However, since sampling from this distribution is not differentiable, VAEs use the reparameterization trick to enable backpropagation
